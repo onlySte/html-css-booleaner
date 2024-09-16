@@ -40,12 +40,17 @@ header {
 
 /* Sezione centrale con paragrafi e liste */
 
+
 #box-centrale-1 {
     margin-top: 35px;
 }
 
 .paragrafo-yellow {
     background-color: rgb(220, 220, 4);
+}
+
+ul {
+    padding: 10px;
 }
 
 /* Sezione tabella */
