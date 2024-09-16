@@ -1,0 +1,30 @@
+/* regole generali */
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 10px;
+}
+
+/* info header */
+header {
+    background-image: url(../img/pattern.png);
+    background-repeat: round;
+    background-size: contain;
+    background-color: rgb(5, 172, 239);
+}
+
+/* Sezione foto e citazioni */
+#citazione {
+    color: darkgray;
+    margin-top: -20px;
+}
+
+.the-booleaner {
+    color: rgb(6, 170, 239);
+}
+
+.citazione-1-2 {
+    line-height: 0px
+}
