@@ -28,3 +28,55 @@ header {
 .citazione-1-2 {
     line-height: 0px
 }
+
+/* Sezione centrale con paragrafi e liste */
+
+#box-centrale-1 {
+    margin-top: 35px;
+}
+
+.paragrafo-yellow {
+    background-color: rgb(220, 220, 4);
+}
+
+/* Sezione tabella */
+/* table {
+    width: 100%;
+} */
+
+th {
+    background-color: rgb(5, 172, 239);
+    color: white;
+}
+
+.background-sky-blue {
+    background-color: rgb(163, 215, 237);
+}
+
+/* Sezione finali con immagini */
+
+#box-finale {
+    margin-top: 30px;
+}
+
+h2 {
+    color: gray;
+    font-size: 20px;
+}
+
+#img-monitor {
+    background-image: url(../img/monitor.jpeg);
+    color: white;
+    width: 240px;
+    height: 180px;
+    font-size: 23px;
+}
+
+#img-graph {
+    background-image: url(../img/graph.jpeg);
+    color: white;
+    width: 240px;
+    height: 180px;
+    margin-top: 15px;
+    font-size: 23px;
+}
