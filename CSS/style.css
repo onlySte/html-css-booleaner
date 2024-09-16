@@ -1,6 +1,7 @@
 /* regole generali */
 body {
     margin: 0;
+    font-weight: 600;
 }
 
 .container {
@@ -13,6 +14,12 @@ header {
     background-repeat: round;
     background-size: contain;
     background-color: rgb(5, 172, 239);
+    height: 100px;
+}
+
+.img-header {
+    height: 70px;
+    margin-top: 20px;
 }
 
 /* Sezione foto e citazioni */
@@ -24,6 +31,8 @@ header {
 .the-booleaner {
     color: rgb(6, 170, 239);
 }
+
+
 
 .citazione-1-2 {
     line-height: 0px
@@ -40,13 +49,28 @@ header {
 }
 
 /* Sezione tabella */
-/* table {
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
     width: 100%;
-} */
+}
+
+.th-size {
+    width: 25%;
+}
+
+.td-size {
+    width: 25%;
+}
 
 th {
     background-color: rgb(5, 172, 239);
     color: white;
+}
+
+tr {
+    height: 40px;
 }
 
 .background-sky-blue {
